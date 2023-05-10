@@ -128,12 +128,6 @@ button[type='submit'] {
   color: #999;
 }
 
-input {
-  width: 100%;
-  border: none;
-  height: 50px;
-}
-
 input[type='checkbox'] {
   margin-right: 10px;
 }
