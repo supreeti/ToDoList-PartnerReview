@@ -24,7 +24,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
     completed: false,
   };
 
-  if (toAdd !== '') {
+  if (toAdd) {
     addDoList(todoTask);
     addList(todoTask);
     document.getElementById('form').reset();
